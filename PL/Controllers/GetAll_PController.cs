@@ -68,7 +68,7 @@ namespace PL.Controllers
                 var result = responseTask.Result;
                 if (result.IsSuccessStatusCode)
                 {
-                    ViewBag.Message = "Se ha ingresado correctamente la pelicula";
+                    ViewBag.Message = "Se ha ingresado correctamente la pelicula XD";
                     return View("Modal");
                 }
                 else
